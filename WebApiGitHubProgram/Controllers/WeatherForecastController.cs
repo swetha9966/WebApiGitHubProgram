@@ -25,6 +25,7 @@ namespace WebApiGitHubProgram.Controllers
 
        // [HttpGet]{"name"}
         [HttpGet]
+        // this is msg from arun
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
