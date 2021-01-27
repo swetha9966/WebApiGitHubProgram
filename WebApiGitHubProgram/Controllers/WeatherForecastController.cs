@@ -23,6 +23,7 @@ namespace WebApiGitHubProgram.Controllers
             _logger = logger;
         }
 
+       // [HttpGet]{"name"}
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
