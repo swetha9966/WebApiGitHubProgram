@@ -17,6 +17,7 @@ namespace WebApiGitHubProgram.Data
        // [StringLength(50)] // [MinLength(3)]
         [Required, StringLength(50), MinLength(3)]
         public string EmpName { get; set; }
+        //Property  for salary
         public double Salary { get; set; } 
         //Adding comment
         public DateTime? DOB { get; set; }  //suffix ? means it is nullable property
